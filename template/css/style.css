@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*Geral html*/
+*{
+	font-family: 'Open Sans', sans-serif;
+	color:  #2B2A2A;
+}
+
+
+.readonly{
+background: #CCCBCB !important;
+color:  #6D6B6B;
+}
+
+body{
+
+}
+h1, h2, h3,h4, h5{
+	color:#6D6B6B;	
+}
+h1{}
+
+h2{}
+
+h3{}
+
+h4{}
+
+h1.title{
+	display: block;	
+	border-bottom: 3px solid #6D6B6B;
+	margin-bottom: 30px;	
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+/*HEADER */
+header{
+	
+}
+
+#itens-header{
+	list-style: none;
+}
+
+#itens-header li{
+	display: inline-block;
+	line-height: 80px;
+}
+
+
+nav{
+
+}
+
+
+.navbar-brand{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.dropdown-menu{
+	padding: 10px;
+	width: 200px;
+}
+
+
+.divider{
+	border-bottom: 1px solid #D9D8D8;
+	width: 100%;
+}
+
+
+
+.caret{
+	color: #9d9d9d!important;
+;}
+/*main*/
+#main{
+	min-height: 400px;
+	padding: 20px 0 20px;
+}
+
+
+.btn-primary .glyphicon, .btn-danger .glyphicon{
+	color:  #fff;
+}
+
+/*FOOTER*/
+
+footer{
+	height: 100px;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 2%, rgba(48,48,48,0) 39%, rgba(127,127,127,0.65) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 2%,rgba(48,48,48,0) 39%,rgba(127,127,127,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 2%,rgba(48,48,48,0) 39%,rgba(127,127,127,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a67f7f7f',GradientType=0 ); /* IE6-9 */
+}
+#footer{
+	margin: 20px;
+	text-align: center;
+
+}
+
+#copy{
+	color: #838383;
+	font-size: smaller;
+}
+
+/*Content*/
+.error{color: #9D1414;}
+
+/*Pagina ERRO*/
+#erro404{
+	text-align: center;
+}
+
+#erro404 .fa.fa-frown-o{
+	font-size: 200px;
+}
+
+/* Area de Login */
+#area-login{
+	margin-top: 50px;
+	background:  #eee;
+	padding: 10px;
+	text-align: center;
+
+
+}
+
+#area-login input{
+	width: 80%;
+}
+
+/*PERFIL*/
+
+.perfil{
+	background:  #eee;
+	padding: 30px;
+}
+
+/*INPUT */
+input{
+	width:  300px!important;
+}
+
+ 
+
+ /*HOME */
+ .MyButton {
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px 60px 10px 60px;
+            margin: 10px 0 20px 0;
+            width: 100%;
+            height: auto;
+            text-align: left;
+            font-size: 5em;
+            color: white;
+            border: 5px solid black;
+            border-radius: 100px;
+            background: -webkit-linear-gradient(left top, #000, #ddd); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(bottom right, #000, #ddd); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(bottom right, #000, #ddd); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to bottom right, #000, #ddd); /* Standard syntax */
+            -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+            -o-transform: scale(1);
+            -webkit-transition: box-shadow 0.2s, 0.2s;
+            transition: box-shadow 0.2s, 0.2s;
+        }
+
+            .MyButton:hover {
+                text-decoration: none;
+                color: white;
+                box-shadow: 10px 10px 10px black;
+                -webkit-transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                -o-transform: scale(1.1);
+            }
+
+            .MyButton img {
+                margin-right: 20px;
+                width: 15%;
+                height: auto;
+                float: left;
+            }
+
+        /*TAMANHO FONTE*/
+        @media only screen and (max-width: 959px) {
+            .MyButton {
+                font-size: 4.5em;
+            }
+        }
+
+        /* Tablet Portrait size to standard 960 (devices and browsers) */
+        @media only screen and (min-width: 768px) and (max-width: 959px) {
+            .MyButton {
+                font-size: 4em;
+            }
+        }
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+            .MyButton {
+                font-size: 3em;
+            }
+        }
+
+        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+            .MyButton {
+                font-size: 2em;
+            }
+        }
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+            .MyButton {
+                font-size: 2em;
+            }
+        }
