@@ -17,7 +17,7 @@ define('DB_PORT', 3306);
 /*---------------------------------------------------------------------------------
 |Configuração da url principal
  ---------------------------------------------------------------------------------- */
-define("BASE_URL",'http://localhost/sistema_reserva_salas');
+define("BASE_URL",'http://localhost/reserva-salas');
 define("FILES_BASE_ADDRESS",dirname( __FILE__ ) );			
 
 

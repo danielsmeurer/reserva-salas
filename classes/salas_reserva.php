@@ -176,6 +176,23 @@ Class Salas_Reserva extends Salas{
 		return true;
 	}
 
+	//verifica se a sala já não possui um reserva na mesma data e hora
+	public function consulta_reserva_data_hora($reserva=false){
+		//var_dump($reserva);
+		if(!$reserva) return false;
+		$sql = "SELECT * FROM $this->table WHERE data = ? AND hora = ?  ";
+		$stmt = $this->db->prepare($sql);
+		$stmt -> bindValue(1, $reserva['data'], PDO::PARAM_STR);
+		$stmt -> bindValue(2, $reserva['hora'], PDO::PARAM_STR);
+		
+		if(!$stmt ->execute()){	
+			//var_dump($stmt ->errorInfo());		
+			return false;
+		}	
+		elseif($stmt->rowCount()>0) return true;		
+		return false;
+	}
+
 
 
 

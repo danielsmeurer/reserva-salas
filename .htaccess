@@ -1,6 +1,6 @@
-#ErrorDocument 404 /sistema_reserva_salas/404.php
+#ErrorDocument 404 /reserva-salas/404.php
 RewriteEngine on
-#RewriteBase /sistema_reserva_salas
+#RewriteBase /reserva-salas
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d|template|classes|robots\.txt
 RewriteRule ^(.*)$ index.php?url=$1 [L]
