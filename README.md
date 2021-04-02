@@ -1,12 +1,12 @@
 # SISTEMA DE RESERVA DE SALAS
 Sistema simples de reserva de salas
 
-<h2>InstalaÁ„o</h2>
+<h2>Instala√ß√£o</h2>
 <ul>
 <li>Passo 1 : importar o banco de dados  dump/init.sql</li>
 <li>Passo 2 : ir no arquivo config.php e definir valores das variaveis constantes com 
-dados de acesso ao banco de dados, e a variavel BASE_URL com o endereÁo absoluto so sistema</li>
-<li>Passo 3 : Acessar pagina do sitema e cadastra o Usu·rio administrador.</li>
+dados de acesso ao banco de dados, e a variavel BASE_URL com o endere√ßo absoluto so sistema</li>
+<li>Passo 3 : Acessar pagina do sitema e cadastra o Usu√°rio administrador.</li>
 </ul>
 
--Por enquanto apÛs cadastrado o primeiro usu·rio que È o administrado, somente este tem acesso a cadastro de usu·rio e crud das salas.
+-Por enquanto ap√≥s cadastrado o primeiro usu√°rio que √© o administrador, somente este tem acesso a cadastro de usu√°rio e crud das salas.
