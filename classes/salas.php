@@ -86,10 +86,7 @@ Class Salas{
 		$sql = "SELECT * FROM $this->table ORDER BY nome_sala";			
 		$query=$this->db->query($sql); 
 		$salas= $query->fetchAll(PDO::FETCH_ASSOC);
-		if($salas){
-			return $salas;
-		}
-		return false;				
+		return $salas;			
 	}
 
 	//Exclui uma sala
